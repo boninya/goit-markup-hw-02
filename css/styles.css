@@ -163,6 +163,10 @@ letter-spacing: 0.03em;
 .contact {
   color: rgba(255, 255, 255, 0.6);
 }
+.contact-list:hover,
+.contact-list:focus {
+  color:var(--akcent-color);
+}
 /* ========= END FOOTER  ========= */
 /* ========= START PORTFOLIO ========= */
 .list-button {
