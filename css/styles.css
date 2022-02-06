@@ -44,6 +44,10 @@ body {
 
   /* ========= START HEADER ========= */
 
+  .logo-second-color {
+    color: var(--secondary-color-text);
+  }
+  
   .logo {
     font-family: var(--secondary-font-family);
     font-style: normal;
@@ -51,11 +55,9 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--secondary-color-text);
-  }
-  .logo-akcent-color {
     color: var(--akcent-color);
   }
+  
 }
 .link nav-list-item {
   font-style: normal;
@@ -97,7 +99,7 @@ body {
   text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
-  color: #ffffff;
+  color: var(--primary-color-text-dark-theme);
 }
 .modal-button {
   font-style: normal;
@@ -144,4 +146,21 @@ body {
 /* ========= END TEAM ========= */
 
 /* ========= START FOOTER ========= */
+.logo-light-color {
+  color: var(--primary-color-text-dark-theme);
+}
+.link contact-list {
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+
+}
+.map {
+  color: var(--primary-color-text-dark-theme);
+}
+.contact {
+  color: rgba(255, 255, 255, 0.6);
+}
 /* ========= END FOOTER  ========= */
