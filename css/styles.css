@@ -1,0 +1,147 @@
+:root {
+  --akcent-color: #2196f3;
+  --primary-font-family: Roboto, sans-serif;
+  --secondary-font-family: Raleway, sans-serif;
+  --primary-color-text: #757575;
+  --secondary-color-text: #212121;
+  --primary-color-text-dark-theme: #ffffff;
+}
+
+body {
+  font-family: var(--primary-font-family);
+  background: #e5e5e5;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+  /* ========= START COMPONENTS ========= */
+  .title {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color-text);
+  }
+  .description {
+    font-style: normal;
+    font-weight: 400px;
+    color: var(--primary-color-text);
+  }
+  .subtitle {
+    font-style: normal;
+    font-weight: 700px;
+    color: var(--secondary-color-text);
+  }
+
+  /* ========= END COMPONENTS ========= */
+
+  /* ========= START HEADER ========= */
+
+  .logo {
+    font-family: var(--secondary-font-family);
+    font-style: normal;
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    color: var(--secondary-color-text);
+  }
+  .logo-akcent-color {
+    color: var(--akcent-color);
+  }
+}
+.link nav-list-item {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color-text);
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: var(--akcent-color);
+}
+.mail,
+.tel {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: #757575;
+}
+.mail:hover,
+.mail:focus,
+.tel:focus,
+.tel:hover {
+  color: var(--akcent-color);
+}
+
+/* ========= END HEADER ========= */
+
+/* ========= START HERO ========= */
+.main-title {
+  font-style: normal;
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+.modal-button {
+  font-style: normal;
+  font-weight: 700px;
+  font-size: 16px;
+  line-height: 1.88;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+  color: #ffffff;
+  background-color: var(--akcent-color);
+  cursor: pointer;
+}
+/* ========= END HERO ========= */
+
+/* ========= START ADVANTAGES ========= */
+.subtitle-advan {
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.desc-advan {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+}
+/* ========= END ADVANTAGES ========= */
+
+/* ========= START WORKS ========= */
+/* ========= END WORKS ========= */
+
+/* ========= START TEAM ========= */
+.subtitle-team {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  letter-spacing: 0.03em;
+  color: var(--secondary-color-text);
+}
+
+/* ========= END TEAM ========= */
+
+/* ========= START FOOTER ========= */
+/* ========= END FOOTER  ========= */
