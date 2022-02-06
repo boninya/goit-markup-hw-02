@@ -59,7 +59,7 @@ body {
   }
   
 }
-.link nav-list-item {
+.nav-list-item {
   font-style: normal;
   font-weight: 500;
   font-size: 14px;
@@ -110,7 +110,7 @@ body {
   align-items: center;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--primary-color-text-dark-theme);
   background-color: var(--akcent-color);
   cursor: pointer;
 }
@@ -149,7 +149,7 @@ body {
 .logo-light-color {
   color: var(--primary-color-text-dark-theme);
 }
-.link contact-list {
+.contact-list {
 font-style: normal;
 font-weight: 400;
 font-size: 14px;
@@ -164,3 +164,20 @@ letter-spacing: 0.03em;
   color: rgba(255, 255, 255, 0.6);
 }
 /* ========= END FOOTER  ========= */
+/* ========= START PORTFOLIO ========= */
+.list-button {
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 1.63;
+text-align: center;
+letter-spacing: 0.03em;
+color: var(--secondary-color-text);
+}
+
+.list-button:hover,
+.list-button:focus{
+  color: var(--akcent-color);
+}
+
+/* ========= END PORTFOLIO ========= */
