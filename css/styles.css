@@ -19,6 +19,8 @@ body {
 .link {
   text-decoration: none;
 }
+
+}
   /* ========= START COMPONENTS ========= */
   .title {
     font-weight: 700;
@@ -168,11 +170,15 @@ line-height: 1.63;
 text-align: center;
 letter-spacing: 0.03em;
 color: var(--secondary-color-text);
+cursor: pointer;
 }
 
 .list-button:hover,
 .list-button:focus{
   color: var(--akcent-color);
 }
+.link-works:hover,
+.link-works:focus {
+  color:var(--akcent-color);
 
 /* ========= END PORTFOLIO ========= */
