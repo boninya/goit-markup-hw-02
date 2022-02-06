@@ -21,7 +21,6 @@ body {
 }
   /* ========= START COMPONENTS ========= */
   .title {
-    font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
@@ -30,12 +29,10 @@ body {
     color: var(--secondary-color-text);
   }
   .description {
-    font-style: normal;
     font-weight: 400px;
     color: var(--primary-color-text);
   }
   .subtitle {
-    font-style: normal;
     font-weight: 700px;
     color: var(--secondary-color-text);
   }
@@ -50,8 +47,7 @@ body {
   
   .logo {
     font-family: var(--secondary-font-family);
-    font-style: normal;
-    font-weight: bold;
+    font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
@@ -60,7 +56,6 @@ body {
   
 }
 .nav-list-item {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -74,7 +69,6 @@ body {
 }
 .mail,
 .tel {
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -92,7 +86,6 @@ body {
 
 /* ========= START HERO ========= */
 .main-title {
-  font-style: normal;
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -102,7 +95,6 @@ body {
   color: var(--primary-color-text-dark-theme);
 }
 .modal-button {
-  font-style: normal;
   font-weight: 700px;
   font-size: 16px;
   line-height: 1.88;
@@ -135,7 +127,6 @@ body {
 
 /* ========= START TEAM ========= */
 .subtitle-team {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 19px;
@@ -150,7 +141,6 @@ body {
   color: var(--primary-color-text-dark-theme);
 }
 .contact-list {
-font-style: normal;
 font-weight: 400;
 font-size: 14px;
 line-height: 1.71;
@@ -170,7 +160,6 @@ letter-spacing: 0.03em;
 /* ========= END FOOTER  ========= */
 /* ========= START PORTFOLIO ========= */
 .list-button {
-font-style: normal;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
