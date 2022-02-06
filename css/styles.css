@@ -157,6 +157,9 @@ letter-spacing: 0.03em;
 .contact-list:focus {
   color:var(--akcent-color);
 }
+.address {
+  font-style: normal;
+}
 /* ========= END FOOTER  ========= */
 /* ========= START PORTFOLIO ========= */
 .list-button {
