@@ -5,6 +5,8 @@
   --primary-color-text: #757575;
   --secondary-color-text: #212121;
   --primary-color-text-dark-theme: #ffffff;
+  --dark-background: #2F303A;
+  --light-background:#F5F4FA;
 }
 
 body {
@@ -86,7 +88,7 @@ body {
 
 /* ========= START HERO ========= */
 .section-hero {
-background: #2F303A;
+background: var(--dark-background);
 }
 .main-title {
   font-weight: 900;
@@ -136,7 +138,7 @@ background: #2F303A;
 
 /* ========= START TEAM ========= */
 .section-team {
-background: #F5F4FA;
+background:var(--light-background); 
 }
 .subtitle-team {
   font-weight: 500;
@@ -173,7 +175,7 @@ letter-spacing: 0.03em;
   font-style: normal;
 }
 .footer-theme {
-background: #2F303A;
+background: var(--dark-background);
 }
 /* ========= END FOOTER  ========= */
 /* ========= START PORTFOLIO ========= */
