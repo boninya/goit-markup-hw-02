@@ -9,7 +9,7 @@
 
 body {
   font-family: var(--primary-font-family);
-  background: #e5e5e5;
+  background:#FFFFFF;
 }
 
 .list {
@@ -20,7 +20,7 @@ body {
   text-decoration: none;
 }
 
-}
+
   /* ========= START COMPONENTS ========= */
   .title {
     font-weight: 700;
@@ -34,7 +34,7 @@ body {
     color: var(--primary-color-text);
   }
   .subtitle {
-    font-weight: 700px;
+    font-weight: 700;
     color: var(--secondary-color-text);
   }
 
@@ -55,13 +55,12 @@ body {
     color: var(--akcent-color);
   }
   
-}
 .nav-list-item {
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: var(--secondary-color-text);
+  color:var(--secondary-color-text);
 }
 
 .nav-list-item:hover,
@@ -74,7 +73,7 @@ body {
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
-  color: #757575;
+  color: var(--primary-color-text);
 }
 .mail:hover,
 .mail:focus,
@@ -86,6 +85,9 @@ body {
 /* ========= END HEADER ========= */
 
 /* ========= START HERO ========= */
+.section-hero {
+background: #2F303A;
+}
 .main-title {
   font-weight: 900;
   font-size: 44px;
@@ -96,7 +98,7 @@ body {
   color: var(--primary-color-text-dark-theme);
 }
 .modal-button {
-  font-weight: 700px;
+  font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   display: flex;
@@ -110,6 +112,9 @@ body {
 /* ========= END HERO ========= */
 
 /* ========= START ADVANTAGES ========= */
+.section-advantages {
+  background: 
+}
 .subtitle-advan {
   font-size: 14px;
   line-height: 1.14;
@@ -124,9 +129,15 @@ body {
 /* ========= END ADVANTAGES ========= */
 
 /* ========= START WORKS ========= */
+.section-works {
+  background: 
+}
 /* ========= END WORKS ========= */
 
 /* ========= START TEAM ========= */
+.section-team {
+background: #F5F4FA;
+}
 .subtitle-team {
   font-weight: 500;
   font-size: 16px;
@@ -152,7 +163,7 @@ letter-spacing: 0.03em;
   color: var(--primary-color-text-dark-theme);
 }
 .contact {
-  color: rgba(255, 255, 255, 0.6);
+  color: var(--primary-color-text);
 }
 .contact-list:hover,
 .contact-list:focus {
@@ -161,8 +172,14 @@ letter-spacing: 0.03em;
 .address {
   font-style: normal;
 }
+.footer-theme {
+background: #2F303A;
+}
 /* ========= END FOOTER  ========= */
 /* ========= START PORTFOLIO ========= */
+.page-portfolio {
+background:
+}
 .list-button {
 font-weight: 500;
 font-size: 16px;
