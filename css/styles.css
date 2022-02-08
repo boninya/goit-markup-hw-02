@@ -1,5 +1,5 @@
 :root {
-  --akcent-color: #2196f3;
+  --accent-color: #2196f3;
   --primary-font-family: Roboto, sans-serif;
   --secondary-font-family: Raleway, sans-serif;
   --primary-color-text: #757575;
@@ -13,7 +13,6 @@ body {
   font-family: var(--primary-font-family);
   background:#FFFFFF;
 }
-
 .list {
   list-style: none;
 }
@@ -21,8 +20,9 @@ body {
 .link {
   text-decoration: none;
 }
-
-
+.nav-list .link.current {
+  color: var(--accent-color);
+}
   /* ========= START COMPONENTS ========= */
   .title {
     font-weight: 700;
@@ -54,7 +54,7 @@ body {
     font-size: 26px;
     line-height: 1.19;
     letter-spacing: 0.03em;
-    color: var(--akcent-color);
+    color: var(--accent-color);
   }
   
 .nav-list-item {
@@ -67,7 +67,7 @@ body {
 
 .nav-list-item:hover,
 .nav-list-item:focus {
-  color: var(--akcent-color);
+  color: var(--accent-color);
 }
 .mail,
 .tel {
@@ -81,7 +81,7 @@ body {
 .mail:focus,
 .tel:focus,
 .tel:hover {
-  color: var(--akcent-color);
+  color: var(--accent-color);
 }
 
 /* ========= END HEADER ========= */
@@ -100,6 +100,7 @@ background: var(--dark-background);
   color: var(--primary-color-text-dark-theme);
 }
 .modal-button {
+  font-family: inherit;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -108,7 +109,7 @@ background: var(--dark-background);
   text-align: center;
   letter-spacing: 0.06em;
   color: var(--primary-color-text-dark-theme);
-  background-color: var(--akcent-color);
+  background-color: var(--accent-color);
   cursor: pointer;
 }
 /* ========= END HERO ========= */
@@ -169,7 +170,7 @@ letter-spacing: 0.03em;
 }
 .contact-list:hover,
 .contact-list:focus {
-  color:var(--akcent-color);
+  color:var(--accent-color);
 }
 .address {
   font-style: normal;
@@ -183,6 +184,7 @@ background: var(--dark-background);
 background:
 }
 .list-button {
+font-family: inherit;
 font-weight: 500;
 font-size: 16px;
 line-height: 1.63;
@@ -194,10 +196,11 @@ cursor: pointer;
 
 .list-button:hover,
 .list-button:focus{
-  color: var(--akcent-color);
+  color: var(--primary-color-text-dark-theme);
+  background-color: var(--accent-color);
 }
 .link-works:hover,
 .link-works:focus {
-  color:var(--akcent-color);
+  color:var(--accent-color);
 
 /* ========= END PORTFOLIO ========= */
